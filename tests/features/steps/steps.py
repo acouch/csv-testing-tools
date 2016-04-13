@@ -7,9 +7,10 @@ import csv
 
 @when('I visit the election file')
 def step_impl(context):
-    fileName = re.search('[a-z_0-9\.csv]+$',context.scenario.name).group(0)
+    fileName = re.search('[a-z_0-9-\.csv]+$',context.scenario.name).group(0)
+    print fileName
     folder = fileName[:4]
-    path = "../%s/%s" % (folder, fileName)
+    path = "../results/%s" % (fileName)
     context.path = path
 
     if (os.path.isfile(path)):
