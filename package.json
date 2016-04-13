@@ -1,21 +1,20 @@
 {
-  "name": "openelections-data-wi",
+  "name": "csv-tests",
   "version": "0.0.1",
-  "description": "WI voting results",
-  "main": "index.js",
+  "description": "Example tests for validation and result sampling for CSV files",
   "scripts": {
     "test": "csv-test csv-test-config.yml election.csv"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acouch/openelections-data-wi.git"
+    "url": "git+https://github.com/acouch/csv-tests.git"
   },
   "author": "acouch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acouch/openelections-data-wi/issues"
+    "url": "https://github.com/acouch/csv-tests/issues"
   },
-  "homepage": "https://github.com/acouch/openelections-data-wi#readme",
+  "homepage": "https://github.com/acouch/csv-tests#readme",
   "devDependencies": {
     "csv-test": "git://github.com/acouch/csv-test.git"
   }
