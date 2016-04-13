@@ -1,0 +1,4 @@
+unicodecsv
+xlrd
+behave
+pyhamcrest
