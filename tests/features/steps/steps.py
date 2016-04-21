@@ -5,13 +5,11 @@ import re
 import os.path
 import csv
 
-# Folder result files should be found in.
-folder = "results"
 
 @when('I visit the election file')
 def step_impl(context):
     fileName = re.search('[a-z_0-9-\.csv]+$',context.scenario.name).group(0)
-    path = "../%s/%s" % (folder, fileName)
+    path = "../%s" % (fileName)
     context.path = path
 
     if (os.path.isfile(path)):
