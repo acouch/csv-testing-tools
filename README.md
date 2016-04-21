@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/acouch/csv-test.svg?branch=master)](https://travis-ci.org/acouch/csv-test)
+[![Build Status](https://travis-ci.org/acouch/csv-tests.svg?branch=master)](https://travis-ci.org/acouch/csv-tests)
 
 # CSV Testing Examples 
 CSV files are still a standard for sharing open data as they are easy read and parse and not part of a proprietary toolchain. It is common to extract data from less open formats like PDF and XLSX files into CSVs. When parsing large numbers of files into CSVs I have found myself wanting to test the outputs for obvious reasons. This repo collects two of those strategies. 
