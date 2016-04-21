@@ -8,7 +8,7 @@ install:
   - npm install
 
 script:
-  - python parser.py example-election-data.xlsx example-election-result.csv 
+  - python example-parser.py example-election-data.xlsx example-election-result.csv 
   - node_modules/csv-test/bin/csv-test tests/csv-test-config.yml example-election-result.csv tests/csv-test-validators.yml
   - cd tests
   - behave -T -q --format pretty
