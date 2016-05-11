@@ -8,5 +8,5 @@ Feature: Elections
   Examples: example-election-result.csv
     | candidate                    | county    | office   | ward                         | votes | total |
     | CINDI DUCHOW                 | WAUKESHA  | Assembly | TOWN OF MERTON Wards 1-11    | 161   | 173   |
-    | THOMAS D. HIBBARD (WRITE-IN) | WAUKESHA  | Assembly | VILLAGE OF DOUSMAN Wards 1-3 | 4     | 63     |
-    | JAN BRAKKEN (WRITE-IN)       | WAUKESHA  | Assembly | VILLAGE OF WALES WARDS 1-4   | 4     | 106     |
+    | THOMAS D. HIBBARD (WRITE-IN) | WAUKESHA  | Assembly | VILLAGE OF DOUSMAN Wards 1-3 | 4     | 63    |
+    | JAN BRAKKEN (WRITE-IN)       | WAUKESHA  | Assembly | VILLAGE OF WALES WARDS 1-4   | 4     | 106   |
