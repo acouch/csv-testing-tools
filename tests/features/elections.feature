@@ -1,6 +1,6 @@
 Feature: Elections
 
-  Scenario Outline: Tests
+  Scenario Outline: Verifying election results
     When I visit the election file
     And I search for candidate <candidate> running for <office> in the <ward> in <county>
     Then I should see <votes> out of <total>
